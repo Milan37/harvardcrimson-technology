@@ -14,42 +14,42 @@ interface TeamMember {
 const items: TeamMember[] = [
   {
     id: 1,
-    title: 'Neil H. Shah',
-    desc: "Technology Chair, Harvard College '26",
+    title: "Neil H. Shah '26",
+    desc: "Technology Chair",
     img:
       'https://media.licdn.com/dms/image/D4E03AQFeWcoB3fLMXw/profile-displayphoto-shrink_200_200/0/1681108989927?e=2147483647&v=beta&t=ssQOvXm5bNf__OBU4UIJNagxeSuzlKOAFJbggmlZft8',
   },
   {
     id: 2,
-    title: 'Denius S. Eum',
-    desc: "Technology Chair, Harvard College '26",
+    title: "Denius S. Eum '26",
+    desc: "Technology Chair",
     img: 'https://cs121.boazbarak.org/staff/DennisEum.jpg',
   },
   {
     id: 3,
-    title: 'Alexander D. Cai ',
-    desc: "Director of Graphics, Harvard College '25",
+    title: "Alexander D. Cai '25",
+    desc: "Director of Graphics",
     img:
       'https://media.licdn.com/dms/image/C5603AQFymK__vyBN5w/profile-displayphoto-shrink_800_800/0/1623863718800?e=1718236800&v=beta&t=DM71O0FQGM-A5YNxzUKgKqaMPEzd_EJbyBenKTIAGgk',
   },
   {
     id: 4,
-    title: 'Victoria A. Kauffman',
-    desc: "Director of Fullstack Development, Harvard College '26",
+    title: "Victoria A. Kauffman '26",
+    desc: "Director of Fullstack Development",
     img:
       'https://media.licdn.com/dms/image/C4D03AQGow9NRN2WKOg/profile-displayphoto-shrink_800_800/0/1656899145800?e=1718236800&v=beta&t=4r0WwJ3mOLEkhds5zBe2G-yfnzUo-h-YrmkH9jb4l3c',
   },
   {
     id: 5,
-    title: 'Grayson M. Martin',
-    desc: "Director of Data Journalism, Harvard College '25",
+    title: "Grayson M. Martin '25",
+    desc: "Director of Data Journalism",
     img:
       'https://media.licdn.com/dms/image/D5603AQGwsoRteTa4cA/profile-displayphoto-shrink_800_800/0/1696781295917?e=2147483647&v=beta&t=W5VJ_3U6GOcP5ODQxx5G5s-h2CA3QZzbm6fiZ2XwKzY',
   },
   {
     id: 6,
-    title: 'Milan Naropanth',
-    desc: "Director of Staff Development, Harvard College '27",
+    title: "Milan Naropanth '27",
+    desc: "Director of Staff Development",
     img:
       'https://media.licdn.com/dms/image/D4E03AQF3CkwF_zd83Q/profile-displayphoto-shrink_800_800/0/1712245257987?e=1718236800&v=beta&t=KaIeG0iUencexllxSRLfkiyCUIaJ7DVDmSZKdke-ou0',
   },
