@@ -1,6 +1,4 @@
-"use client"
-import React, { FC, useEffect, useState } from 'react';
-import { motion, useScroll } from 'framer-motion';
+import React, { FC } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -56,43 +54,25 @@ const items: TeamMember[] = [
 ];
 
 const TeamPage: FC = () => {
-    const { scrollYProgress } = useScroll();
-    const [progress, setProgress] = useState<number>(0);
-
-    useEffect(() => {
-        const unsubscribe = scrollYProgress.on("change", (v) => {
-            setProgress(v);
-        });
-        return () => unsubscribe();
-    }, [scrollYProgress]);
-
   return (
     <div className="relative h-full">
       <div className="absolute top-0 right-2 p-4 mt-[-210px]">
-                <Link href="/">
-                    <Image 
-                        src="/logo2.svg"
-                        alt="The Crimson Logo"
-                        width={300}
-                        height={300}
-                        style={{ cursor: 'pointer' }}
-                    />
-                </Link>
-        </div>
+        <Link href="/">
+          <Image 
+            src="/logo2.svg"
+            alt="The Crimson Logo"
+            width={300}
+            height={300}
+            style={{ cursor: 'pointer' }}
+          />
+        </Link>
+      </div>
 
-      <motion.div
-        initial={{ y: '-200vh' }}
-        animate={{ y: '0%' }}
-        transition={{ duration: 1 }}
-        className="flex flex-wrap justify-center items-center pt-32"
-      >
+      <div className="flex flex-wrap justify-center items-center pt-32">
         {items.map((item) => (
-          <motion.div
+          <div
             className="flex flex-col items-center justify-center m-4 w-1/3"
             key={item.id}
-            whileInView={{ opacity: 1 }}
-            initial={{ opacity: 0 }}
-            transition={{ duration: 0.8 }}
           >
             <div className="relative w-56 h-40 md:w-64 md:h-48 lg:w-80 lg:h-56 rounded-xl overflow-hidden mb-2">
               <Image src={item.img} alt={item.title} layout="fill" objectFit="cover" />
@@ -101,16 +81,11 @@ const TeamPage: FC = () => {
               {item.title}
             </h1>
             <p className="text-xs md:text-sm lg:text-md text-center text-black">{item.desc}</p>
-          </motion.div>
+          </div>
         ))}
-      </motion.div>
+      </div>
 
-      <motion.div
-        whileInView={{ opacity: 1 }}
-        initial={{ opacity: 0 }}
-        transition={{ duration: 0.8 }}
-        className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center"
-      >
+      <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
         <h1 className="text-8xl">
           interested? see more&nbsp;
           <a
@@ -123,12 +98,7 @@ const TeamPage: FC = () => {
           </a>
           !
         </h1>
-      </motion.div>
-
-      <motion.div
-        style={{ scaleX: progress, backgroundColor: '#840B10' }}
-        className="fixed bottom-0 left-0 right-0 h-2"
-      />
+      </div>
     </div>
   );
 };

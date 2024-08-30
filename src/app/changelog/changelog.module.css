@@ -1,0 +1,30 @@
+.prose h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .prose h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1.25rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .prose ul {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    list-style-type: disc;
+  }
+  
+  .prose li {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .prose p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
