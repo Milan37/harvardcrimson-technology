@@ -13,7 +13,7 @@ const inter = Courier_Prime({
 });
 
 export const metadata = {
-  title: 'The Harvard Crimson Technology Board',
+  title: 'Harvard Crimson Technology',
   description:
     "The Harvard Crimson Technology Board website, where you'll find code updates, information about us, and a comp portal",
 };

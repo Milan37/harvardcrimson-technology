@@ -11,9 +11,10 @@ interface Link {
 
 const links: Link[] = [
   { url: '/', title: 'home' },
-  { url: '/about', title: 'about' },
+  { url: '/comp', title: 'comp' },
   { url: '/changelog', title: 'changelog' },
-  { url: '/team', title: 'team' },
+  { url: '/about', title: 'about' },
+  { url: '/team', title: 'team' }
 ];
 
 const topVariants: Variants = {

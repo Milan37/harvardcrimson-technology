@@ -15,7 +15,7 @@ const items: TeamMember[] = [
     title: "Neil H. Shah '26",
     desc: "Technology Chair",
     img:
-      'https://media.licdn.com/dms/image/D4E03AQFeWcoB3fLMXw/profile-displayphoto-shrink_200_200/0/1681108989927?e=2147483647&v=beta&t=ssQOvXm5bNf__OBU4UIJNagxeSuzlKOAFJbggmlZft8',
+      'https://s3.amazonaws.com/thumbnails.thecrimson.com/photos/contrib_pics/Neil_H._Shah.jpeg.600x400_q95_crop-smart_upscale.jpg',
   },
   {
     id: 2,
@@ -49,7 +49,7 @@ const items: TeamMember[] = [
     title: "Milan Naropanth '27",
     desc: "Director of Staff Development",
     img:
-      'https://media.licdn.com/dms/image/D4E03AQF3CkwF_zd83Q/profile-displayphoto-shrink_800_800/0/1712245257987?e=1718236800&v=beta&t=KaIeG0iUencexllxSRLfkiyCUIaJ7DVDmSZKdke-ou0',
+      'https://pbs.twimg.com/profile_images/1789089980666482688/bbelIBhW_400x400.jpg',
   },
 ];
 
